@@ -45,15 +45,15 @@ jobs:
       - name: Install Haxelib
         run: |
           haxelib setup ~/haxelib
-          haxelib install hxcpp > /dev/null
-          haxelib install lime 7.9.0
-          haxelib install openfl 9.1.0
+          haxelib --never install hxcpp > /dev/null
+          haxelib --never install lime 7.9.0
+          haxelib --never install openfl 9.1.0
           haxelib --never install flixel 4.11.0
           haxelib run lime setup flixel
-          haxelib install flixel-tools
-          haxelib install flixel-ui 2.3.3
-          haxelib install hscript
-          haxelib install flixel-addons 2.11.0
+          haxelib --never install flixel-tools
+          haxelib --never install flixel-ui 2.3.3
+          haxelib --never install hscript
+          haxelib --never install flixel-addons 2.11.0
           haxelib git hxCodec https://github.com/polybiusproxy/hxcodec
           haxelib git linc_luajit https://github.com/Sirox228/linc_luajit
           haxelib git extension-androidtools https://github.com/MAJigsaw77/extension-androidtools 003572c107
