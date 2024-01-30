@@ -24,11 +24,12 @@ class FlashingState extends MusicBeatState
 		add(bg);
 
 		warnText = new FlxText(0, 0, FlxG.width,
-			"Hey, watch out!\n
-			This Mod contains some flashing lights!\n
-			Press ENTER to disable them now or go to Options Menu.\n
-			Press ESCAPE to ignore this message.\n
-			You've been warned!",
+			"Welcome to Psych Engine 0.5.3 on Android!\n
+			We tried to add Shaders and we failed :'D\n
+			But seriously tho, we recommend you to disable Flashing Lights \n
+			if you're Photosensitive \n
+			Press A to disable them or\n
+			Press B to ignore this message.",
 			32);
 		warnText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER);
 		warnText.screenCenter(Y);
