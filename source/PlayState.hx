@@ -1187,6 +1187,7 @@ class PlayState extends MusicBeatState
 			}
 		}
 		#end
+}
 
 		public function addShaderToCamera(cam:String,effect:ShaderEffect){//STOLE FROM ANDROMEDA
 	  
