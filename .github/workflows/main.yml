@@ -44,7 +44,7 @@ jobs:
           haxelib install hscript 2.4.0 --quiet
           haxelib install flixel-addons 2.11.0 --quiet
           haxelib git linc_luajit https://github.com/sirox228/linc_luajit
-          haxelib --never git extension-androidtools https://github.com/MAJigsaw77/extension-androidtools 003572c107
+          haxelib --never git extension-androidtools https://github.com/MAJigsaw77/extension-androidtools
           haxelib git extension-videoview https://github.com/mcagabe19-stuff/extension-videoview
           haxelib list
 
